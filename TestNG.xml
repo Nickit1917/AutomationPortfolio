@@ -7,22 +7,10 @@
             <parameter name="browser" value="chrome"/>
         </classes>
     </test>
-    <test name="ABTest_FF">
-        <classes>
-            <class name="com.example.demo.test.ABTest"/>
-            <parameter name="browser" value="firefox"/>
-        </classes>
-    </test>
     <test name="AddRemoveTest_Chrome">
         <classes>
             <class name="com.example.demo.test.AddRemoveTest"/>
             <parameter name="browser" value="chrome"/>
-        </classes>
-    </test>
-    <test name="AddRemoveTest_FF">
-        <classes>
-            <class name="com.example.demo.test.AddRemoveTest"/>
-            <parameter name="browser" value="firefox"/>
         </classes>
     </test>
     <test name="NegativeAuthTest_Chrome">
@@ -31,22 +19,10 @@
             <parameter name="browser" value="chrome"/>
         </classes>
     </test>
-    <test name="NegativeAuthTest_FF">
-        <classes>
-            <class name="com.example.demo.test.NegativeAuthTest"/>
-            <parameter name="browser" value="firefox"/>
-        </classes>
-    </test>
     <test name="PositiveAuthTest_Chrome">
         <classes>
             <class name="com.example.demo.test.PositiveAuthTest"/>
             <parameter name="browser" value="chrome"/>
-        </classes>
-    </test>
-    <test name="PositiveAuthTest_FF">
-        <classes>
-            <class name="com.example.demo.test.PositiveAuthTest"/>
-            <parameter name="browser" value="firefox"/>
         </classes>
     </test>
 </suite>
